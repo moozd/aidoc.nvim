@@ -44,7 +44,7 @@ use{
 
 ## Usage
 
-Select the `function/expression` and use `<leader>D` or the key that you passed during the configuration.
+Select the `function/expression` and use `<leader>d` or the key that you passed during the configuration.
 
 ![](https://github.com/blob/master/aidoc.nvim/aidoc.gif)
 
