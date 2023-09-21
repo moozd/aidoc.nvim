@@ -15,7 +15,7 @@ use{
     'moozd/aidoc.nvim',
     config=function ()
         require('aidoc').setup({
-          email = "<your mintlify account email>",
+          email = "<your email is optional>",
           width = 65,
           keymap = "<leader>d",
         })
@@ -32,7 +32,7 @@ use{
   'moozd/aidoc.nvim',
    config=function ()
         require('aidoc').setup({
-          email = "<your mintlify account email>",
+          email = "<your email is optional>",
           width = 65,
           keymap = "<leader>d",
         })
@@ -48,6 +48,13 @@ Select the `function/expression` and use `<leader>D` or the key that you passed 
 
 ![](https://github.com/blob/master/aidoc.nvim/aidoc.gif)
 
+## Minimal Configuration
+
+```lua
+require('aidoc').setup({})
+
+```
+
 ## Default Configuration
 
 ```lua
@@ -57,5 +64,10 @@ require('aidoc').setup({
     keymap = "<leader>d",
 })
 
-
 ```
+
+## TODO
+
+- Add custom configs
+- Add doc style
+- Filter unsupported buffer types
