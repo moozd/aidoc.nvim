@@ -46,7 +46,7 @@ use{
 
 Select the `function/expression` and use `<leader>d` or the key that you passed during the configuration.
 
-![](https://github.com/blob/master/aidoc.nvim/aidoc.gif)
+![](https://github.com/moozd/aidoc.nvim/blob/master/aidoc.gif)
 
 ## Minimal Configuration
 
